@@ -1,2 +1,0 @@
-# shPlusPlus_Assignment3
-
