@@ -1,6 +1,6 @@
 package com.shpp.p2p.cs.dnokhrina.assignment3;
 
-import java.awt.Color;
+import java.awt.*;
 
 import com.shpp.cs.a.graphics.WindowProgram;
 

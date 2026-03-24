@@ -4,7 +4,8 @@ import java.util.Random;
 
 /*     So, what are the odds of winning more than 10,000?
     Spoiler: With a sample size of 100,000,000 games, I consistently get ~46,500 games, which is 0.0465%.
- */
+
+    In the end, I got so carried away that I ended up plotting graphs in Python based on the data I had collected.*/
 public class Assignment3Part5ext1 {
     static final Random random = new Random();
 
@@ -49,3 +50,5 @@ public class Assignment3Part5ext1 {
         return random.nextBoolean();
     }
 }
+
+//      If you are interested, here is more of my yapping: https://docs.google.com/document/d/1PETelADFX1CWNrZLVrjk3CZd5Q_PNWm1Xt_UOvnPyE4/edit?usp=sharing

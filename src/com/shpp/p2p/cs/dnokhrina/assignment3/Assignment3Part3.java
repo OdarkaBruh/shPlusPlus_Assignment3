@@ -2,8 +2,10 @@ package com.shpp.p2p.cs.dnokhrina.assignment3;
 
 import java.util.Scanner;
 
-//      Task: Elevation to a power
+//      Task: Raise to a power
 public class Assignment3Part3 {
+    /*  If you've never seen a scanner before, it simply scans the console for a user response.
+        (as readInt, readDouble, but here it will be nextInt, nextDouble)       */
     static final Scanner SCANNER = new Scanner(System.in);
 
     boolean testingMode = false;
@@ -45,7 +47,7 @@ public class Assignment3Part3 {
 
     public static void scanBase() {
         System.out.print("base = ");
-        base = SCANNER.nextDouble();
+        base = SCANNER.nextDouble(); //if you ha
     }
 
     public static void scanExponent() {

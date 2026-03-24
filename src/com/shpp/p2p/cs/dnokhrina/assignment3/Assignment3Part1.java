@@ -21,7 +21,7 @@ public class Assignment3Part1 {
         ====================== ======================
     In a test mode, value WON'T be scanned from input, instead will be used variable "testWeek" */
 
-    static final boolean testingMode = true;
+    static final boolean testingMode = false;
     static final int[] testWeek = {40, 0, 30, 40, 20, 80, 0};
 
     /*  ====================== ======================

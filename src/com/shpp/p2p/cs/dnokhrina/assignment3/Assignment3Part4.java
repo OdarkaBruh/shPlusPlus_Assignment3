@@ -2,7 +2,7 @@ package com.shpp.p2p.cs.dnokhrina.assignment3;
 
 import java.awt.*;
 
-/*      Task: So, you'll need to build a pyramid out of bricks.
+/*      Task: Build a pyramid out of bricks.
               Each row contains one fewer brick than the one below it.*/
 public class Assignment3Part4 extends DrawShapes {
     // The window's parameters
@@ -19,11 +19,11 @@ public class Assignment3Part4 extends DrawShapes {
 
     //draw a pyramid
     public void drawPyramid(int brickInBase) {
-        for (int i = brickInBase; i > 0; i--) { //from bottom to top
+        for (int i = brickInBase; i > 0; i--) { //rows from bottom to top
+
             /*  to center the pyramid vertically:
                 y = height of the window - height of all rows below it.
-                (i-1) since the coordinates are counted from the top corner ==> need to leave space for the first row.
-            */
+                (i-1) since the coordinates are counted from the top corner ==> need to leave space for the first row.  */
             int y = getHeight() - BRICK_HEIGHT * (BRICKS_IN_BASE - (i - 1)) - 1;
             drawRow(y, i);
         }
